@@ -4,6 +4,8 @@ while True:
     what file would you like to search for?:
     a) 60s-music file
     b) athletes file
+    c) movie file
+    d) video game file
     x) to exit
     ''')
 
@@ -13,8 +15,12 @@ while True:
         file_variable = '60s-music.csv'
     elif file_variable == 'b':
         file_variable == 'athletes.csv'
+    elif file_variable == 'c':
+        file_variable == 'movies.csv'
+    elif file_variable == 'd':
+        file_variable == 'vgsales.csv'
     else:
-        print('Invalid option. Please select a, b, or x.')
+        print('Invalid option. Please select a, b, c, d, or x.')
         continue
 
     search_variable = input(f'Enter the search term for {file_variable} file: ')

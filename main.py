@@ -16,9 +16,9 @@ while True:
     elif file_variable == 'b':
         file_variable == 'athletes.csv'
     elif file_variable == 'c':
-        file_variable == 'movies.csv'
+        file_variable = 'movies.csv'
     elif file_variable == 'd':
-        file_variable == 'vgsales.csv'
+        file_variable = 'vgsales.csv'
     else:
         print('Invalid option. Please select a, b, c, d, or x.')
         continue
